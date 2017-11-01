@@ -1,5 +1,6 @@
 package com.futuremedialab;
 
+import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -10,25 +11,27 @@ public class Block {
 
     private int index;
     private Date timestamp;
-    private int hash;
     private int previousHash;
     private String[] transactions;
 
-    public Block(int index, Date timestamp, int previousHash, String[] transactions) {
-        this.previousHash = previousHash;
+    private int hash;
+
+    public Block(int index, Date timestamp, String[] transactions, int previousHash) {
+        this.index = index;
+        this.timestamp = timestamp;
         this.transactions = transactions;
+        this.previousHash = previousHash;
 
-        hashBlock();
+        this.hash = hashBlock();
     }
 
-    private void hashBlock() {
-        Object[] content = {Arrays.hashCode(transactions), previousHash};
-        this.hash = Arrays.hashCode(content);
-    }
-
-    public void editTransactions() {
-        transactions = new String[]{"Edited transaction"};
-        hashBlock();
+    /**
+     * Hash content of block
+     * @return hash of content
+     */
+    private int hashBlock() {
+        Object[] content = {index, timestamp, Arrays.hashCode(transactions), previousHash};
+        return Arrays.hashCode(content);
     }
 
 
@@ -42,5 +45,13 @@ public class Block {
 
     public int getPreviousHash() {
         return previousHash;
+    }
+
+    public Date getTimestamp() {
+        return timestamp;
+    }
+
+    public int getIndex() {
+        return index;
     }
 }
