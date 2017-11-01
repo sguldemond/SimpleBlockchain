@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6ac2f2b-9645-4e17-a5b8-4b4ba66e2b67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/futuremedialab/Block.java" afterPath="$PROJECT_DIR$/src/com/futuremedialab/Block.java" />
     </list>
     <ignored path="SimpleBlockchain.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +39,8 @@
       <file leaf-file-name="Block.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/futuremedialab/Block.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="214">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -589,12 +587,20 @@
       <updated>1507729855396</updated>
       <workItem from="1507729859623" duration="2196000" />
       <workItem from="1507915544708" duration="1894000" />
-      <workItem from="1509541598593" duration="481000" />
+      <workItem from="1509541598593" duration="552000" />
     </task>
+    <task id="LOCAL-00001" summary="first edit constructor&#10;">
+      <created>1509542175669</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509542175669</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4571000" />
+    <option name="totallyTimeSpent" value="4642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="22" width="1243" height="778" extended-state="6" />
@@ -637,6 +643,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first edit constructor&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="first edit constructor&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,8 +711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/futuremedialab/Block.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="214">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
